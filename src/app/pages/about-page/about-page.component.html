@@ -20,7 +20,7 @@
 
 <div class="flex gap-10 mt-32">
   <div #aboutImg1Container class="w-7/12 p-20 mock-2-container">
-    <img #aboutImg1 [src]="'../../../assets/images/mock-1_' + selectedListId + '.webp'" />
+    <img #aboutImg1 [src]="'assets/images/mock-1_' + selectedListId + '.webp'" />
   </div>
   <div #aboutListAnim  class="w-5/12 flex flex-col gap-10 ustify-between border-l">
     <div *ngFor="let list of aboutList" class="pl-10 -ml-[1.5px] cursor-pointer" [ngClass]="list.id === selectedListId ? 'border-l-4  active-border' : ''" (click)="updateDisplay(list)">
@@ -31,7 +31,7 @@
 </div>
 
 <div class="mt-32">
-  <img #aboutImg2 class="mx-auto" src="../../../assets/images/mock-1.webp" />
+  <img #aboutImg2 class="mx-auto" src="assets/images/mock-1.webp" />
 </div>
 
 <div class="flex justify-between items-center mt-32 overflow-hidden">
@@ -48,5 +48,5 @@
 </div>
 
 <div class="mt-32">
-  <img #aboutImg3 class="mx-auto" src="../../../assets/images/mock-1.webp" />
+  <img #aboutImg3 class="mx-auto" src="assets/images/mock-1.webp" />
 </div>
