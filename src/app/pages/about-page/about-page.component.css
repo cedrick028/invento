@@ -1,0 +1,15 @@
+.purple-text {
+  color: var(--accent-color);
+}
+.purple-text span, .subheader {
+  color: var(--subheader-color);
+}
+
+.mock-2-container{
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+
+.active-border{
+  border-color: var(--accent-color);
+}

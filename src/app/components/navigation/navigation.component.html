@@ -1,0 +1,15 @@
+<!-- Desktop -->
+<div #navContainer class="flex justify-between items-center">
+  <p class="text-4xl font-bold logo">/nvento.</p>
+
+  <div class="flex items-center gap-14">
+    <div class="flex gap-10">
+      <p *ngFor="let nav of navMenu" class="font-medium cursor-pointer">{{nav.navLabel}}</p>
+    </div>
+
+    <div class="flex gap-2">
+      <app-btn btnLabel="" btnIcon="person" btnStyle="roundBtn"></app-btn>
+      <app-btn btnLabel="Register" btnIcon="arrow_forward" btnStyle="primaryBtn"></app-btn>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+.subheader {
+  color: var(--subheader-color);
+}
+
+.mockup-container {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}

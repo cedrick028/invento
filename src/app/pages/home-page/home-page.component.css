@@ -1,0 +1,11 @@
+.hero-container {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+.mock-1-container img {
+  border-radius: 20px 20px 0 0;
+}
+
+.subheader {
+  color: var(--subheader-color);
+}

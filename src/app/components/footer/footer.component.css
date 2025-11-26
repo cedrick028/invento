@@ -1,0 +1,12 @@
+.footer-container{
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+}
+
+.subheader {
+  color: var(--subheader-color);
+}
+
+.footer-logo-big{
+  color: var(--purple-bg-icon);
+}

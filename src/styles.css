@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #182B35;
+  --secondary-color: #F4F5FF;
+  --accent-color: #5756E4;
+  --subheader-color: #6b6b6b;
+
+  /* Icons */
+  --white-bg-icon: #FFFFFF;
+  --dark-bg-icon: #182B35;
+  --gray-bg-icon: #ECEEEE;
+  --purple-bg-icon: #e6e6ff;
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.dot {
+  border-radius: 50%;
+  background-color: var(--accent-color);
+}
